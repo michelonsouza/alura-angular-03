@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CadastroComponent } from './cadastro/cadastro.component';
 
-
 const routes: Routes = [
   {
     path: '',
@@ -12,11 +11,11 @@ const routes: Routes = [
   },
   {
     path: 'cadastro',
-    component: CadastroComponent
+    component: CadastroComponent,
   },
   {
     path: 'sucesso',
-    component: SucessoCadastroComponent
+    component: SucessoCadastroComponent,
   },
 ];
 

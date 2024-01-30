@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  color: var(--laranja)
+  color: var(--laranja);
 }
 
 .principal__subtitulo {
@@ -17,6 +17,7 @@
   color: var(--azul);
   margin: 3em 0 2em 0;
 }
+
 .campo__etiqueta {
   display: block;
   font-weight: 700;
@@ -34,8 +35,7 @@
 }
 
 .formulario__campo {
-  margin: .6em 3em .6em 0;
-
+  margin: 0.6em 3em 0.6em 0;
 }
 
 .formulario__dupla {
@@ -56,14 +56,14 @@
 
 .formulario__erro {
   display: flex;
-  margin-top: .5em;
+  margin-top: 0.5em;
   align-items: center;
 }
 
 .erro__imagem {
   width: 16px;
   height: 16px;
-  margin: 0 .5em;
+  margin: 0 0.5em;
   background-image: url('/assets/img/warning.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -73,4 +73,9 @@
   font-size: 12px;
   line-height: 18px;
   color: var(--vermelho);
+}
+
+.ng-touched.ng-invalid:not(form) {
+  border-color: red;
+  color: red;
 }

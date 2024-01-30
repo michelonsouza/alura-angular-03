@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  color: var(--laranja)
+  color: var(--laranja);
 }
 
 .principal__subtitulo {
@@ -47,6 +47,6 @@
 
 @media screen and (min-width: 1024px) {
   .banner__titulo {
-      font-size: 36px;
+    font-size: 36px;
   }
 }
